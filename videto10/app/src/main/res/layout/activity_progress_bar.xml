@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_background_image"
+    tools:context=".ProgressBarActivity">
+
+
+    <com.dinuscxj.progressbar.CircleProgressBar
+        android:id="@+id/circle_progress_bar"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:progress_start_color="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        app:progress_end_color="@color/colorAccent"
+        app:progress_stroke_width="7dp"
+        app:progress_text_color="#FFFFFF"
+        android:layout_centerInParent="true"
+        app:style="solid_line"
+        app:progress_text_size="20sp"
+        />
+
+</RelativeLayout>
